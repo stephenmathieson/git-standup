@@ -1,0 +1,10 @@
+#!/bin/sh
+
+AUTHOR=${AUTHOR:="`git config user.name`"}
+
+since=yesterday
+if [[ $(date +%u) == 1 ]] ; then
+  since="3 days ago"
+fi
+
+git log --since "$since" --oneline --branches=* --author="$AUTHOR"
