@@ -4,27 +4,27 @@
 
 ## Installation
 
-  ```sh
-  $ git clone https://github.com/stephenmathieson/git-standup.git
-  $ cd ./git-standup
-  $ make install
-  ```
+```sh
+$ git clone https://github.com/stephenmathieson/git-standup.git
+$ cd ./git-standup
+$ make install
+```
 
 ## Usage
 
   See what you did:
 
-  ```sh
-  $ git standup
-  [ . . . ]
-  ```
+```sh
+$ git standup
+[ . . . ]
+```
   
   See what they did:
   
-  ```sh
-  $ AUTHOR="Bill Nye the Science Guy" git standup
-  [ . . . ]
-  ```
+```sh
+$ AUTHOR="Bill Nye the Science Guy" git standup
+[ . . . ]
+```
 
 ## License 
 
