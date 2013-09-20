@@ -1,14 +1,29 @@
-
 # git-standup
 
   Simple git script for remembering what you did yesterday
 
 ## Installation
 
-  ```
+  ```sh
   $ git clone https://github.com/stephenmathieson/git-standup.git
   $ cd ./git-standup
   $ make install
+  ```
+
+## Usage
+
+  See what you did:
+
+  ```sh
+  $ git standup
+  [ . . . ]
+  ```
+  
+  See what they did:
+  
+  ```sh
+  $ AUTHOR="Bill Nye the Science Guy" git standup
+  [ . . . ]
   ```
 
 ## License 
